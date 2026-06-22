@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ஸ்ரீ புகழ் டிரைவிங் ஸ்கூல்</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:#0f172a;
+    color:#fff;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    font-family:'Noto Sans Tamil',sans-serif;
+    font-size:28px;
+    font-weight:700;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#f59e0b;
+}
+
+/* HERO */
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,.55),
+    rgba(0,0,0,.55)),
+    url('car.jpg');
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:58px;
+    font-family:'Noto Sans Tamil',sans-serif;
+    margin-bottom:20px;
+}
+
+.hero-content h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    color:white;
+    margin:5px;
+    font-weight:600;
+}
+
+.call-btn{
+    background:#f97316;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+/* SECTIONS */
+
+section{
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+/* ABOUT */
+
+.about{
+    text-align:center;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* SERVICES */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#0f172a;
+}
+
+/* GALLERY */
+
+.gallery{
+    background:white;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+}
+.card-image{
+    transform: rotate(320deg);
+}.business-card{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    transform: rotate(-90deg);
+    background: white;
+}
+/* CONTACT */
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact h2{
+    color:white;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#020617;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+
+.float-whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    text-decoration:none;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:36px;
+}
+
+.hero-content h2{
+    font-size:24px;
+}
+
+nav{
+    display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+ஸ்ரீ புகழ் டிரைவிங் ஸ்கூல்
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>ஸ்ரீ புகழ் டிரைவிங் ஸ்கூல்</h1>
+
+<h2>Learn Safe & Confident Driving</h2>
+
+<p>
+Professional Car and Two-Wheeler Driving Training with Experienced Instructors.
+Build confidence and drive safely on the road.
+</p>
+
+<a href="tel:9865338887" class="btn call-btn">
+📞 Call Now
+</a>
+
+<a href="https://wa.me/919865338887" class="btn whatsapp-btn">
+WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+
+<p>
+Sri Pugal Driving School is a trusted driving training center offering
+professional driving lessons for beginners and learners. We provide practical
+training for cars and two-wheelers with a focus on safety, confidence, and
+real-world road experience.
+</p>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services-grid">
+
+<div class="card">
+<h3>🚗 Car Driving Training</h3>
+<p>Professional car driving lessons for beginners and learners.</p>
+</div>
+
+<div class="card">
+<h3>🏍 Two-Wheeler Training</h3>
+<p>Safe and practical bike riding instruction with expert guidance.</p>
+</div>
+
+<div class="card">
+<h3>📄 License Assistance</h3>
+<p>Support and guidance for Learner's License and Driving License procedures.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery" id="gallery">
+
+<h2 class="section-title">Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="images/shop.jpg" alt="Driving School Office">
+
+<img src="images/board.jpg" alt="Driving School Board">
+
+<img src="images/car.jpg" alt="Training Car">
+
+<!-- <img src="images/card.jpg" alt="Business Card" class="card-image"> -->
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<p><strong>Phone:</strong> 98653 38887</p>
+
+<p><strong>Phone:</strong> 97863 38887</p>
+
+<p><strong>Email:</strong> pugaldrivingschool@gmail.com</p>
+
+<p>
+43/1, Arasi Nagar 6th Street,<br>
+Aravakurichi,<br>
+Karur - 639201
+</p>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Sri Pugal Driving School. All Rights Reserved.
+</p>
+
+</footer>
+
+<a
+href="https://wa.me/919865338887"
+class="float-whatsapp">
+💬
+</a>
+
+</body>
+</html>
